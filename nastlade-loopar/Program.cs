@@ -40,6 +40,7 @@ namespace nastlade_loopar
             }
             */
 
+            /*
             //Övn 3
             for (int i = 0; i < 10; i++)
             {
@@ -48,6 +49,21 @@ namespace nastlade_loopar
                     Console.Write("#");
                 }
                 Console.WriteLine();
+            }
+            */
+
+            //Övn 4
+            for (int i = 0; i < 10; i++)
+            {
+                for (int y = 0; y < i; y++)
+                {  
+                    Console.Write("_");
+                }
+                for (int x = 0; x < (10-i); x++)
+                    {
+                        Console.Write("*");
+                    }
+                Console.WriteLine("");
             }
         }
     }
