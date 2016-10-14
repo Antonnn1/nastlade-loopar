@@ -10,6 +10,15 @@ namespace nastlade_loopar
     {
         static void Main(string[] args)
         {
+            //Övn 1
+            for (int y = 0; y < 10; y++)
+            {
+                for (int x = 0; x < 5; x++)
+                {
+                    Console.Write("o#");
+                }
+                Console.WriteLine();
+            }
         }
     }
 }
