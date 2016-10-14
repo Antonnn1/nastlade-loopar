@@ -10,6 +10,7 @@ namespace nastlade_loopar
     {
         static void Main(string[] args)
         {
+            /*
             //Övn 1
             for (int y = 0; y < 10; y++)
             {
@@ -18,6 +19,23 @@ namespace nastlade_loopar
                     Console.Write("o#");
                 }
                 Console.WriteLine();
+            }
+            */
+
+            //Övn 2
+            for (int y = 0; y < 10; y++)
+            {
+                for (int x = 0; x < 5; x++)
+                {
+                    if ((y % 2) == 0)
+                        Console.Write("#o");
+                    else
+                        Console.Write("o#");
+                }
+                if ((y % 2) == 0)
+                    Console.WriteLine("#");
+                else
+                    Console.WriteLine("o");
             }
         }
     }
