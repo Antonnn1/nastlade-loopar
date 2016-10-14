@@ -22,6 +22,7 @@ namespace nastlade_loopar
             }
             */
 
+            /*
             //Övn 2
             for (int y = 0; y < 10; y++)
             {
@@ -36,6 +37,17 @@ namespace nastlade_loopar
                     Console.WriteLine("#");
                 else
                     Console.WriteLine("o");
+            }
+            */
+
+            //Övn 3
+            for (int i = 0; i < 10; i++)
+            {
+                for (int x = 10; x > i; x--)
+                {
+                    Console.Write("#");
+                }
+                Console.WriteLine();
             }
         }
     }
